@@ -16,7 +16,7 @@ mongoose
 
 
   app.use(cors({
-    origin:"http://localhost:3000"
+    origin:"http://video-streaming-app-delpoy.s3-website.ap-south-1.amazonaws.com/"
   }))
   app.use(bodyParser.json({ limit: '50mb' }));
   app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
