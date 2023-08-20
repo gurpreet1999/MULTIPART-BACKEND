@@ -19,7 +19,7 @@ mongoose
     origin:"https://64e1a5a4e1a5b434fe02ca23--gregarious-pasca-298e12.netlify.app/"
   }))
   app.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', 'http://video-streaming-app-delpoy.s3-website.ap-south-1.amazonaws.com');
+    res.header('Access-Control-Allow-Origin', 'https://64e1a5a4e1a5b434fe02ca23--gregarious-pasca-298e12.netlify.app');
     res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
     res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
     next();
